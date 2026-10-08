@@ -7,4 +7,5 @@ form.addEventListener("submit", function(event){
         .filter(element => element.id)
         .map(element => [element.id, element.value])
         ));
+        form.reset();
 });
